@@ -100,7 +100,7 @@ struct JIT {
                 break;
             }
             // the operations of the pointer shifts and value changes should be
-            // folded to imporove the performance of the JIT compiler.
+            // folded to improve the performance of the JIT compiler.
             case '.' :
                 emit( 8, ins, 0x41, 0x0f, 0xb6, 0x3c, 0x24, 0x41, 0xff, 0xd5 );
                 break;
